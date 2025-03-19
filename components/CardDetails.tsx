@@ -22,7 +22,7 @@ const CardDetails = () => {
 
         <section className="flex flex-col gap-2 lg:w-[32%] text-base lg:text-lg">
           <p className="tracking-widest text-sm text-gray-600">OBSIDIAN FLAMES</p>
-          <p className="font-bold text-2xl lg:text-2xl  tracking-widest">CHARIZARD DRAGON STORM</p>
+          <p className="text-2xl lg:text-2xl  tracking-widest">CHARIZARD DRAGON STORM</p>
           <p className="text-2xl lg:text-xl pb-8 border-b-[1px] border-gray-300">$27.99</p>
 
           <p className="text-sm lg:text-base mt-6">As the next best set for value after Boosters, this product will appeal to general consumers and increase exposure to ONE PIECE Card Game in stores!The packaging doubles as a card case, making this product more economical, accessible, and collectible!</p>
@@ -91,7 +91,7 @@ const CardDetails = () => {
                 </div>
               </Link>
 
-              <section className="flex flex-col items-center mt-2 text-black">
+              <section className="flex flex-col items-center mt-2 text-black text-center">
                 <p className="tracking-widest text-[15px]">{pokemon.title}</p>
                 {/* <p className="">{pokemon.descr}</p> */}
                 <p className="text-[15px] mt-1 text-gray-700">

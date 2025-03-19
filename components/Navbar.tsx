@@ -6,12 +6,20 @@ import { Instagram, Menu, Search, ShoppingBag, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { navItems } from "@/data";
 import "../styles/global.scss";
-import Image from "next/image";
+import { useCart } from "./CartContext";
+import { ShoppingCart } from "lucide-react";
 
 const Navbar = () => {
+  const { toggleCart } = useCart();
   return (
-    <div className="flex w-full justify-between items-center py-11 gap-8 px-4 lg:px-12  z-[100]  backdrop-blur-3xl h-[60px] bg-black text-[#FAFAFA] fixed top-0">
+    <div className="flex flex-row-reverse lg:flex-row w-full justify-between items-center py-11 gap-8 px-4 lg:px-12 z-[40]  backdrop-blur-3xl h-[60px] bg-black text-[#FAFAFA] fixed top-0">
       {/* <div className="flex justify-between items-center w-full lg:w-[80%]"> */}
+
+      <div className="flex gap-6 items-center justify-end lg:hidden">
+        <button onClick={toggleCart} className="relative cursor-pointer">
+        <ShoppingBag />
+      </button>
+      </div>
 
       <div className="hidden lg:flex gap-6 items-center w-[40%]">
         {navItems.map((item, idx) => (
@@ -28,7 +36,7 @@ const Navbar = () => {
         ))}
       </div>
 
-      <div className="flex gap-6 items-center justify-start lg:justify-center w-full lg:w-[20%] lg:min-w-[200px]">
+      <div className="flex gap-6 items-center justify-center w-full lg:w-[20%] lg:min-w-[200px]">
         <Link href="/" className="" aria-label="logo">
           {/* <Image 
             width={200}
@@ -36,7 +44,7 @@ const Navbar = () => {
             src="/assets/images/logo.png"
             alt=""
           /> */}
-          <p className="text-xl font-medium flex items-center">
+          <p className="text-xl font-medium flex items-center text-center">
             WALIDS COLLECTION
           </p>
         </Link>
@@ -54,9 +62,9 @@ const Navbar = () => {
         <Link href="/" className="hidden lg:flex">
           <Search />
         </Link>
-        <Link href="/" className="hidden lg:flex">
-          <ShoppingBag />
-        </Link>
+        <button onClick={toggleCart} className="relative cursor-pointer">
+        <ShoppingBag />
+      </button>
       </div>
 
       <nav className="lg:hidden bg-transparent">

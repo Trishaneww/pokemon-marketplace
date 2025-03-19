@@ -1,3 +1,6 @@
+"use client"
+import { CartProvider } from '@/components/CartContext'
+import CartDrawer from '@/components/CartDrawer'
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
@@ -9,18 +12,22 @@ import React from 'react'
 
 
 
+
 const page = () => {
   return (
-    <div className="flex flex-col bg-gray-100 overflow-x-hidden">
-      {/* <TestMotion /> */}
-      <Navbar />
-      <Hero />
-      <Selections />
-      <Homepage />
-      <CTA />
-      <Footer />
-      
-    </div>
+    <CartProvider>
+      <div className="flex flex-col bg-gray-100">
+        {/* <TestMotion /> */}
+        <Navbar />
+        <CartDrawer />
+        <Hero />
+        <Selections />
+        <Homepage />
+        <CTA />
+        <Footer />
+        
+      </div>
+    </CartProvider>
   )
 }
 

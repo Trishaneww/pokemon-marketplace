@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 const CTA = () => {
   return (
     <div className="flex px-4 xl:px-52 pb-20 mt-4">
-      <div className="flex flex-col lg:flex-row justify-between items-center px-20 py-8 w-full lg:h-[400px] border-[1px] border-gray-300 mt-12 rounded-xl relative bg-[#FAFAFA]">
+      <div className="flex flex-col lg:flex-row justify-between items-center px-20 py-8 w-full lg:h-[400px] border-[1px] border-gray-300 mt-12 relative bg-[#FAFAFA]">
         <section className="flex flex-col gap-2 text-center lg:text-left">
           <p>15% OFF</p>
           <p className="text-2xl lg:text-5xl font-medium">OBSIDIAN FLAMES</p>
