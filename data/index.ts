@@ -2,17 +2,17 @@ export const navItems = [
     {
         id:1,
         title: 'LATEST ARRIVALS',
-        href:"/"
+        href:"/slabs"
     },
     {
         id:2,
         title: 'GRADES SINGLES',
-        href:"/"
+        href:"/slabs"
     },
     {
         id:3,
         title: 'BLISTER PACKS',
-        href:"/"
+        href:"/slabs"
     },
 ]
 

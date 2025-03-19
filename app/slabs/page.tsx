@@ -5,7 +5,7 @@ import CartDrawer from '@/components/CartDrawer'
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
-import TestMotion from '@/components/Practice'
+import SlabsHero from '@/components/SlabsHero'
 import React from 'react'
 
 
@@ -17,10 +17,9 @@ const page = () => {
       <CartProvider>
         <Navbar />
         <CartDrawer />
-        <CardDetails />
+        <SlabsHero />
         <CTA />  
         <Footer />
-
       </CartProvider>
     </div>
   )
