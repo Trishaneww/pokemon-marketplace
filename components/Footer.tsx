@@ -8,7 +8,7 @@ import { Button } from './ui/button';
 
 const Footer = () => {
   return (
-    <div className="flex flex-col pt-24 pb-12 px-12 overflow-x-hidden items-center w-full text-black bg-[#FAFAFA]">
+    <div className="flex flex-col lg:pt-24 pb-12 px-12 overflow-x-hidden items-center w-full text-black bg-[#FAFAFA]">
         <div className="flex flex-col gap-12 lg:gap-2 flex-wrap lg:flex-row justify-between lg:w-[80%] border-b-[1px] border-b-gray-300 pb-12">
 
         <section className="flex flex-col items-start justify-start gap-2 lg:max-w-[480px]">
