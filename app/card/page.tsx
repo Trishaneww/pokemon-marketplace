@@ -1,5 +1,8 @@
 
+"use client"
 import CardDetails from '@/components/CardDetails'
+import { CartProvider } from '@/components/CartContext'
+import CartDrawer from '@/components/CartDrawer'
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
@@ -12,10 +15,14 @@ import React from 'react'
 const page = () => {
   return (
     <div className="flex flex-col bg-gray-100 overflow-x-hidden">
-      <Navbar />
-      <CardDetails />
-      <CTA />  
-      <Footer />
+      <CartProvider>
+        <Navbar />
+        <CartDrawer />
+        <CardDetails />
+        <CTA />  
+        <Footer />
+
+      </CartProvider>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import React from 'react'
 const Selections = () => {
   return (
     <div className="xl:px-52 flex flex-col lg:flex-row gap-6 mt-20 px-4">
-        <section className="flex flex-col items-center pt-10 lg:pt-20 lg:w-1/2 relative overflow-hidden bg-white h-[500px] rounded-xl text-lg group border-[1px] border-gray-300 text-center">
+        <section className="flex flex-col items-center pt-10 lg:pt-20 lg:w-1/2 relative overflow-hidden bg-white h-[500px] text-lg group border-[1px] border-gray-300 text-center">
             <p className="text-3xl tracking-widest font-medium mb-2">PREMIUM SINGLES</p>
             <p>Eevee ex and its diverse array of Evolutions shine</p>
             <Link href="/" className="flex items-center group mt-4 text-blue-700">
@@ -22,7 +22,7 @@ const Selections = () => {
             />
         </section>
 
-        <section className="flex flex-col-reverse items-center pb-10 lg:pb-20 lg:w-1/2 relative overflow-hidden bg-white h-[500px] rounded-xl text-lg group border-[1px] border-gray-300 text-center">
+        <section className="flex flex-col-reverse items-center pb-10 lg:pb-20 lg:w-1/2 relative overflow-hidden bg-white h-[500px] text-lg group border-[1px] border-gray-300 text-center">
             <p className="text-3xl tracking-widest font-medium mt-2">BOOSTER BOXES</p>
             <p>Eevee ex and its diverse array of Evolutions shine</p>
             <Link href="/" className="flex items-center group text-blue-700">

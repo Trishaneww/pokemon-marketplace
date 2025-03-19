@@ -6,9 +6,9 @@ import { cn } from "@/lib/utils";
 const inter = Host_Grotesk({ weight: ["300", "400", "500", "600", "700", "800"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Walids Collection",
+  title: "WALIDS COLLECTION",
   description:
-    "We design and develop custom, high-performing websites tailored to help your business stand out and grow.",
+    "Online pokemon store.",
   icons: {
     icon: "/assets/icons/favicon.ico",
   },

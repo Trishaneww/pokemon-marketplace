@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col gap-12 lg:gap-2 flex-wrap lg:flex-row justify-between lg:w-[80%] border-b-[1px] border-b-gray-300 pb-12">
 
         <section className="flex flex-col items-start justify-start gap-2 lg:max-w-[480px]">
-            <p className="text-2xl font-extrabold">STAY IN TOUCH</p>
+            <p className="text-2xl tracking-widest">STAY IN TOUCH</p>
             <p className="text-base">Sign-up to hear about the latest card drops and showrooms, and get exclusive access to promotions and new feature releases.</p>
 
             <div className="flex items-center gap-2 mt-2">
@@ -30,7 +30,7 @@ const Footer = () => {
                 <div className="flex gap-4">
                     {/* <p>4</p> */}
                     <div className="flex flex-col">
-                    <p className="text-2xl font-extrabold mb-2">FOLLOW US ON</p>
+                    <p className="text-2xl mb-2 tracking-widest">FOLLOW US ON</p>
                         <ul className="text-base flex gap-4 mt-1">
                             {/* <li><Link href="/#services" aria-label="navigation link">Services</Link></li>
                             <li><Link href="/work" aria-label="navigation link">Gallery</Link></li>

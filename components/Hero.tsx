@@ -64,7 +64,7 @@ const Hero = () => {
                 </div>
               </Link>
 
-              <section className="flex flex-col items-center mt-2 text-black">
+              <section className="flex flex-col items-center mt-2 text-black text-center">
                 <p className="tracking-widest text-[15px]">{pokemon.title}</p>
                 {/* <p className="">{pokemon.descr}</p> */}
                 <p className="text-[15px] mt-1 text-gray-700">
