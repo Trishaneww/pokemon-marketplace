@@ -23,7 +23,7 @@ const CartDrawer = () => {
         initial={{ x: "100%" }}
         animate={{ x: isOpen ? 0 : "100%" }}
         transition={{ type: "tween", duration: 0.3 }}
-        className="fixed right-0 top-0 w-[70%] lg:w-[25%] h-full bg-white shadow-xl z-50 py-8 flex flex-col"
+        className="fixed right-0 top-0 w-[90%] lg:w-[25%] h-full bg-white shadow-xl z-50 py-8 flex flex-col"
       >
         {/* Header */}
         <div className="flex justify-between items-center border-b pb-8 w-full px-5">
@@ -46,7 +46,7 @@ const CartDrawer = () => {
             <div className="flex flex-col gap-2 pt-8 px-5 items-stretch justify-between h-full">
             <section className="flex flex-col gap-4 py-8 px-5">
               {pokemonCards.slice(12, 14).map((pokemon, idx) => (
-                <div className="flex gap-2 justify-between px-4 py-2" key={idx}>
+                <div className="flex gap-2 justify-between lg:px-4 py-2" key={idx}>
                   <Image height={80} width={80} src={pokemon.src} alt="" />
                   <section className="flex flex-col gap-2">
                     <p className="tracking-widest text-sm">{pokemon.title}</p>
