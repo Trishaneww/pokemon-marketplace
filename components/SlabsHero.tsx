@@ -23,7 +23,7 @@ const SlabsHero = () => {
           </p>
         </div>
 
-        <div className="flex justify-between lg:hidden mt-8">
+        <div className="flex justify-center lg:hidden mt-8">
           <Image
             width={200}
             height={200}
@@ -53,7 +53,7 @@ const SlabsHero = () => {
 
       <p className="tracking-widest text-base text-center mt-6 text-gray-600 border-y-[1px] border-gray-300 py-5">15 PRODUCTS</p>
 
-      <div className="flex flex-wrap justify-center lg:justify-between items-center lg:px-32 xl:px-52 gap-6 mt-32">
+      <div className="flex flex-wrap justify-center lg:justify-between items-center lg:px-32 xl:px-52 gap-6 mt-8 lg:mt-32">
 
           {pokemonCards.slice(0, 15).map((pokemon, idx) => (
             <div

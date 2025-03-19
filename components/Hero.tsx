@@ -8,7 +8,7 @@ import { ChevronRight } from "lucide-react";
 const Hero = () => {
   return (
     <div className="flex flex-col  lg:px-32 xl:px-52 mt-44 z-10 px-4">
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-12 border-b-[1px] border-gray-300">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-12 border-b-[1px] border-gray-300 pb-6">
         <section className="flex flex-col items-center lg:items-start gap-4 lg:w-[50%]">
           <p className="text-3xl lg:text-6xl font-medium text-center lg:text-left">
             CATCH RARE CARDS & BUILD YOUR ULTIMATE COLLECTION!

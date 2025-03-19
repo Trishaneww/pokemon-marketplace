@@ -44,7 +44,7 @@ const CartDrawer = () => {
             ))
           ) : (
             <div className="flex flex-col gap-2 pt-8 px-5 items-stretch justify-between h-full">
-            <section className="flex flex-col gap-4 py-8 px-5">
+            <section className="flex flex-col gap-4 py-8 lg:px-5">
               {pokemonCards.slice(12, 14).map((pokemon, idx) => (
                 <div className="flex gap-2 justify-between lg:px-4 py-2" key={idx}>
                   <Image height={80} width={80} src={pokemon.src} alt="" />

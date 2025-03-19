@@ -31,7 +31,15 @@ const CTA = () => {
           height={650}
           src="/assets/images/cta.png"
           alt="obsidean flames blitz pack"
-          className="mt-8 lg:mt-0 min-w-[320px]"
+          className="mt-8 lg:mt-0 min-w-[320px] hidden lg:flex"
+        />
+
+        <Image
+          width={650}
+          height={650}
+          src="/assets/images/hero5.png"
+          alt="obsidean flames blitz pack"
+          className="mt-8 lg:mt-0 min-w-[320px] lg:hidden"
         />
       </div>
     </div>
